@@ -9,19 +9,19 @@
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
 </head>
 <body>
-	<nav>
+	<div class="topnav" id="myTopnav">
 		<h1>Мое резюме</h1>
-		<ul class="nav">
-			<li class="nav-item"><a href="#top">Главная</a></li>
-			<li class="nav-item"><a href="#work">Работы</a></li>
-			<li class="nav-item"><a href="#bootom">Контакты</a></li>
-			<li class="nav-item">
-				<a href="index-en.html">
-					<img src="assets/img/england.png"></img>
-				</a>
-			</li>
-		</ul>
-	</nav>
+		<a href="#top">Главная</a>
+		<a href="#work">Работы</a>
+		<a href="#contact">Контакты</a>
+		<a href="index-en.html">
+			<img src="assets/img/england.png"></img>
+		</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		  <i class="fa fa-bars"></i>
+		</a>
+	</div>
+	
 	<header class="header" id="top">
 		<div class="container">
 			<div class="row">
@@ -128,5 +128,6 @@
 		</div>
 	</footer>
 	<script src="https://kit.fontawesome.com/e48603161e.js" crossorigin="anonymous"></script>
+	<script src="js/scripts.js"></script>
 </body>
 </html>
