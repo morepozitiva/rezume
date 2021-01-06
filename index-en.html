@@ -4,62 +4,129 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My rezume</title>
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/styles.css">
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
 </head>
 <body>
-<div>
-	<div>
-		<img src="assets/img/photo.jpg" width="200" alt="My rezume">
-		<h1>Mironenko Aleksandr Aleksandrovich</h1>
-		<h3>Frontend</h3>
-		<p><strong>Education</strong>: Higher</p>
-		<p>
-			<strong>Skills:</strong>
-			<ul>
-				<li>html &#8594; 100%</li>
-				<li>css &#8594; 100%</li>
-				<li>js &#8594; 100%</li>
-				<li>Angulyar &#8594; 5%</li>
-				<li>React &#8594; 5%</li>
-				<li>Vue &#8594; 40%</li>
-				<li>php &#8594; 50%</li>
-				<li>Adobe photoshop (GIMP) &#8594; 40%</li>
-				<li>inskape &#8594; 20%</li>
-			</ul>
-		</p>
-		<h2>My homework</h2>
-		<ul>
-			<li><<a target="_blank" href="https://github.com/morepozitiva/spisok/">Spisok</a></li>
-			<li><<a target="_blank" href="https://github.com/morepozitiva/anchor/">Anchor</a></li>
-			<li>
-				<<a target="_blank" href="https://github.com/morepozitiva/hard2new/" target="_blank">Hard</a>
+	<nav>
+		<h1>My rezume</h1>
+		<ul class="nav">
+			<li class="nav-item"><a href="#top">Home</a></li>
+			<li class="nav-item"><a href="#work">Work</a></li>
+			<li class="nav-item"><a href="#bootom">Contacts</a></li>
+			<li class="nav-item">
+				<a href="index.html">
+					<img src="assets/img/russia.png"></img>
+				</a>
 			</li>
-			<li>
-				<<a target="_blank" href="https://github.com/morepozitiva/simple/" target="_blank">Simple</a>
-			</li>
+		</ul>
+	</nav>
+	<header class="header" id="top">
+		<div class="container">
+			<div class="row">
+				<div class="col col-lg-6">
+					<img src="assets/img/photo.jpg" alt="" class="avatar">
+				</div>
+				<div class="col col-lg-6">
+					<h2 class="fullname">Mironenko Aleksandr Aleksandrovich</h2>
+					<p class="vakanciya">Frontend</p>
+					<p class="education"><span>Education</span>: Higher</p>
+					<p class="naviki">
+						<span>Skills</span>
+						<ul class="naviki_spisok">
+							<li class="naviki_spisok-items">html &#8594; 100%</li>
+							<li class="naviki_spisok-items">css &#8594; 100%</li>
+							<li class="naviki_spisok-items">js &#8594; 100%</li>
+							<li class="naviki_spisok-items">Angulyar &#8594; 5%</li>
+							<li class="naviki_spisok-items">React &#8594; 5%</li>
+							<li class="naviki_spisok-items">Vue &#8594; 40%<</li>
+							<li class="naviki_spisok-items">php &#8594; 50%</li>
+							<li class="naviki_spisok-items">Adobe photoshop (GIMP) &#8594; 40%</li>
+							<li class="naviki_spisok-items">inskape &#8594; 20%</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="main">
+		<div class="work" id="work">
+			<div class="container">
+				<h2>My work</h2>
+				<div class="row">
+					<div class="work-item col col-lg-4">
+						<a target="_blank" href="https://morepozitiva.github.io/anchor/">
+							Anchor</a>
+							<img src="assets/img/works/anchors.jpg" alt="">
+					</div>
+					<div class="work-item col col-lg-4">
+						<a target="_blank" href="https://morepozitiva.github.io/hard2new/" target="_blank">
+							Hard</a>
+							<img src="assets/img/works/har2new.jpg" alt="">
+					</div>
+					<div class="work-item col col-lg-4">
+						<a target="_blank" href="https://morepozitiva.github.io/simple/" target="_blank">
+							Simple</a>
+							<img src="assets/img/works/simple.png" alt="">
+					</div>
+				</div>
+
+					
+				<div class="row">
+						<div class="work-item col col-lg-4">
+							<a target="_blank" href="https://morepozitiva.github.io/namaste_green/">
+								Namaste Green</a>
+								<img src="assets/img/works/namaste-green.png" alt="">
+						</div>
+						<div class="work-item col col-lg-4">
+							<a target="_blank" href="https://morepozitiva.github.io/css-weather">
+								CSS Weather</a>
+								<img src="assets/img/works/icon-weather.jpg" alt="">
+						</div>
+						<div class="work-item col col-lg-4">
+							<a target="_blank" href="https://morepozitiva.github.io/icons">
+								Icon
+							</a>
+							<img src="assets/img/works/icon.jpg" alt="">
+						</div>
+				</div>
+
+				<div class="row">
+					<div class="work-item col col-lg-4">
+						<a target="_blank" href="https://morepozitiva.github.io/shopping-list">
+							Shopping List</a>
+					</div>
+				</div>
+					
+			</div>
+		</div>
+	</div>
+
 		
-			<li>
-				<<a target="_blank" href="https://github.com/morepozitiva/namaste_green/">Namaste Green</a>
-			</li>
-			<li>
-				<<a target="_blank" href="https://github.com/morepozitiva/css-weather">CSS Weather</a>
-			</li>
-			<li>
-				<<a target="_blank" href="https://github.com/morepozitiva/icons">Icon</a>
-			</li>
-			<li>
-				<<a target="_blank" href="https://github.com/morepozitiva/shopping-list">Shopping List</a>
-			</li>
-		</ul>
-	</div>
-	<div>
-		<ul>
-			<li><a target="_blank" href="//facebook.com/more.pozitivs">Facebook</a></li>
-			<li><a target="_blank" href="//morepozitiva.github.io/">Github</a></li>
-			<li><a target="_blank" href="//www.instagram.com/morepozitivs/">Instagram</a></li>
-		</ul>
-	</div>
-</div>
-	<a href="index.html">Russian version</a>
+	<footer class="footer" id="bootom">
+		<div class="container">
+			<!-- social link -->
+			<ul class="social">
+				<li class="social-item">
+					<a target="_blank" href="https://facebook.com/more.pozitivs">
+						<i class="fab fa-facebook"></i>
+					</a>
+				</li>
+				<li class="social-item">
+					<a target="_blank" href="https://morepozitiva.github.io/">
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+				<li class="social-item">
+					<a target="_blank" href="https://www.instagram.com/morepozitivs/">
+						<i class="fab fa-instagram-square"></i>
+					</a>
+				</li>
+			</ul>
+			<!-- social link end -->
+		</div>
+	</footer>
+	<script src="https://kit.fontawesome.com/e48603161e.js" crossorigin="anonymous"></script>
 </body>
 </html>
